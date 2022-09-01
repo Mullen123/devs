@@ -106,7 +106,7 @@
 
 
 
-        <p>  <i class="fa fa-child"></i>  {{ Auth::user()->name }}</p>
+        <p>  <i class="fa fa-child"></i>  {{ $post->user->name }}</p>
 
         <p> <i class="fa fa-clock-o"></i>  {{$post->created_at->diffForHumans()}}</p>
 
